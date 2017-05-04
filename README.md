@@ -15,3 +15,4 @@ fundamental popular data structures you need to know for the interview.
 
 7 implement the double linked list 
 
+8 bitmap
