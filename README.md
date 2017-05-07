@@ -16,3 +16,11 @@ fundamental popular data structures you need to know for the interview.
 7 implement the double linked list 
 
 8 bitmap
+
+9 implement Heap
+
+10 implement Trie
+
+11 implement Union Find (Compressed the path)
+
+12 All popular sorting Algos (QuickSort MergeSort QuickSelect CountSort BucketSortInsertionSort SelecetSort)
