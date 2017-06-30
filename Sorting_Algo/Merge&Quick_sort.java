@@ -39,7 +39,7 @@ point, put all smaller numbers before pivot point and bigger numbers after pivot
     int pivot = arr[high];
     
     int i = low - 1;
-    for(int j = low; j < high; j++){
+    for(int j = low; j <= high; j++){
       if(arr[j] <= pivot){
          i++;
         swap(arr,i, j);
@@ -48,9 +48,9 @@ point, put all smaller numbers before pivot point and bigger numbers after pivot
     }
     
     // i + 1 is illegal index 
-    swap(arr, i + 1, high);
+  //  swap(arr, i + 1, high);
     
-    return i + 1;
+    return i;
   }
   
   public static void swap(int[] nums, int i, int j){
